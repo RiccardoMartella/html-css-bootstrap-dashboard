@@ -3,3 +3,28 @@
     border-radius: 30px;
     height: 45px;
 }
+
+body {
+    height: 100vh;
+}
+
+.height {
+    height: 70px;
+}
+
+section {
+    height: calc(100% - 70px);
+}
+
+.background-image {
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #1a223e !important;
+}
+
+.width-12 {
+    width: 12%;
+}
+
+li {
+    list-style-type: none;
+}
