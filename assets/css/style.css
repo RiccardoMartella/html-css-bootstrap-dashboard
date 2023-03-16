@@ -46,7 +46,7 @@ body {
 }
 
 .background-color {
-    background-color:#3d34f1 ;
+    background-color:#3d34f1;
 }
 
 
@@ -55,7 +55,7 @@ body {
     width: 12%;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 535px) {
 
     .media-order-1 {
         order: 1;
@@ -68,4 +68,4 @@ body {
     .media-order-3 {
         order: 3;
     } 
-}
+} */
