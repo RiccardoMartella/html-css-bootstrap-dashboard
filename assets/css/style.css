@@ -14,13 +14,6 @@ body {
     height: calc(100% - 70px);
 }
 
-.border {
-    border: 2px solid black;
-    border-radius: 30px;
-    height: 45px;
-}
-
-
 .button-1-type {
     background-color:#2a25c6 ;
     border-radius: 50px;
@@ -39,6 +32,10 @@ body {
     height: 13%;
 }
 
+.height-45 {
+    height: 45px;
+}
+
 /* background settings */
 .background-image {
     background-image: url(../img/sidebar-bg.png);
@@ -55,17 +52,6 @@ body {
     width: 12%;
 }
 
-/* @media screen and (max-width: 535px) {
-
-    .media-order-1 {
-        order: 1;
-    }
-
-    .media-order-2 {
-        order: 2;
-    }
-
-    .media-order-3 {
-        order: 3;
-    } 
-} */
+.width-70 {
+    width: 70%;
+}
