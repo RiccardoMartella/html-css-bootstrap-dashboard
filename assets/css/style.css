@@ -6,13 +6,18 @@ li {
     list-style-type: none;
 }
 
+hr {
+    margin: 0;
+}
+
 body {
     height: 100vh;
 }
 
-.section {
+.content {
     height: calc(100% - 70px);
 }
+
 
 .button-1-type {
     background-color:#2a25c6 ;
@@ -57,10 +62,10 @@ body {
     width: 12%;
 }
 
-.width-70 {
-    width: 70%;
+.width-65 {
+    width: 65%;
 }
 
-.width-30 {
-    width: 30%;
+.width-35 {
+    width: 31%;
 }
