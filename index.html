@@ -110,8 +110,33 @@
               <!-- 1 card -->
               <div class="ms-1 mt-2 order-md-3">
                 <div class="d-flex align-items-center">
-                  <h6>Nuovo studente</h6>
-                  <i class="mb-2 ms-2 fa-solid fa-square-plus fs-4"></i>
+                  <h6 class="me-2">Nuovo studente</h6>
+                  <button
+                    class="btn m-0 p-0"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                  >
+                    <i class="fa-solid fa-square-plus fs-4 text-white"></i>
+                  </button>
+                  <div
+                    class="offcanvas offcanvas-end"
+                    tabindex="-1"
+                    id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel"
+                  >
+                    <div class="offcanvas-header">
+                      <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                      <button
+                        type="button"
+                        class="btn-close text-reset"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body">...</div>
+                  </div>
                 </div>
               </div>
               <!-- 2 card -->
